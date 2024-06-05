@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8BA66B46-2717-C439-6DA9-5A712E5BB140}</ProjectGuid>
+    <ProjectGuid>{B81E635A-FD28-6208-293C-DFCEF081E675}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,6 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
+    <Compile Include="Assets\Scenes\Scripts\camera.cs" />
+    <Compile Include="Assets\Scenes\Scripts\gameStart.cs" />
+    <Compile Include="Assets\Scenes\Scripts\prefabTrigger.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ballroll.cs" />
+    <Compile Include="Assets\Scenes\Scripts\gameOver.cs" />
     <Compile Include="Assets\UI button pack 2\Scene\CreateObj.cs" />
   </ItemGroup>
   <ItemGroup>

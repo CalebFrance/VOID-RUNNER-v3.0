@@ -355,6 +355,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scenes/Scripts/ballroll.cs"
+"Assets/Scenes/Scripts/camera.cs"
+"Assets/Scenes/Scripts/gameOver.cs"
+"Assets/Scenes/Scripts/gameStart.cs"
+"Assets/Scenes/Scripts/prefabTrigger.cs"
 "Assets/UI button pack 2/Scene/CreateObj.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
 -langversion:9.0
