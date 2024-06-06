@@ -61,9 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
+    <Compile Include="Assets\Scenes\Scripts\magicCircle.cs" />
     <Compile Include="Assets\Scenes\Scripts\camera.cs" />
     <Compile Include="Assets\Scenes\Scripts\gameStart.cs" />
+    <Compile Include="Assets\Scenes\Scripts\coloumnGeneration.cs" />
+    <Compile Include="Assets\Scenes\Scripts\createEnemy.cs" />
+    <Compile Include="Assets\Scenes\Scripts\movement.cs" />
     <Compile Include="Assets\Scenes\Scripts\prefabTrigger.cs" />
+    <Compile Include="Assets\Scenes\Scripts\enemyfollow.cs" />
     <Compile Include="Assets\Scenes\Scripts\ballroll.cs" />
     <Compile Include="Assets\Scenes\Scripts\gameOver.cs" />
     <Compile Include="Assets\UI button pack 2\Scene\CreateObj.cs" />

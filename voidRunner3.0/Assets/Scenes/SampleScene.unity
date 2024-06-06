@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8b488107b4281c342bd6c0208052a081, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.063493334, g: 0.0520377, b: 0.056690488, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -197,7 +197,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.53e-43, y: 3.2783815e-28, z: 4.53e-43, w: 1.6863298e-28}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -236,7 +236,7 @@ Rigidbody:
   m_GameObject: {fileID: 732405411}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 0.5
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -266,12 +266,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1c59a1d3b5c8540b91954f9249da64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
+  speed: 700
   speedActivity: {fileID: 0}
   JumpSFX: {fileID: 0}
   rb2: {fileID: 732405418}
   power: 0
   player: {fileID: 732405411}
+--- !u!114 &732405426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732405411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34a5f75c14887b4894a031980dc51dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 9
+  doubleJumpForce: 10
+  timeBeforeNextJump: 1.2
+  isGrounded: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +409,7 @@ PrefabInstance:
       objectReference: {fileID: 732405411}
     - target: {fileID: 289740924950743418, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3262332578069204192, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       propertyPath: m_LocalPosition.x
@@ -435,10 +451,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4650204127659334944, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 732405411}
+    - target: {fileID: 4650204127659334944, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
+      propertyPath: level_1
+      value: 
+      objectReference: {fileID: 1126701302309486033, guid: 1898bf30f8562094cba891e99d84fb68, type: 3}
+    - target: {fileID: 4650204127659334944, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
+      propertyPath: level_2
+      value: 
+      objectReference: {fileID: 8692604088842636664, guid: 993f1a179b049244ea9b317aa57eea86, type: 3}
+    - target: {fileID: 4650204127659334944, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
+      propertyPath: level_3
+      value: 
+      objectReference: {fileID: 4864049009622658424, guid: 16c7ab8a2e6c8b34fbf0b1a07b138eaf, type: 3}
+    - target: {fileID: 4650204127659334944, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
+      propertyPath: platforms
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5373971909200229204, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 732405411}
+    - target: {fileID: 5373971909200229204, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
+      propertyPath: level_1
+      value: 
+      objectReference: {fileID: 1126701302309486033, guid: 1898bf30f8562094cba891e99d84fb68, type: 3}
     - target: {fileID: 5373971909200229204, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       propertyPath: startCircle
       value: 
@@ -446,7 +486,7 @@ PrefabInstance:
     - target: {fileID: 5373971909200229204, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       propertyPath: tutorial_level
       value: 
-      objectReference: {fileID: 1126701302309486033, guid: 47105a6e6b4c9774bab3bf566d35ce25, type: 3}
+      objectReference: {fileID: 1126701302309486033, guid: 1898bf30f8562094cba891e99d84fb68, type: 3}
     - target: {fileID: 9081609729212357856, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       propertyPath: m_Name
       value: Player
@@ -458,6 +498,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9081609729212357856, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       insertIndex: 1
       addedObject: {fileID: 732405419}
+    - targetCorrespondingSourceObject: {fileID: 9081609729212357856, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 732405426}
     - targetCorrespondingSourceObject: {fileID: 9081609729212357856, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
       insertIndex: -1
       addedObject: {fileID: 732405418}

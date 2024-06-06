@@ -48,6 +48,7 @@ public class gameStart : MonoBehaviour
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 
         Vector3 circlePosition = playerTransform.position;
+        circlePosition.y = -0.2f;
         Vector3 startPosition = playerTransform.position + Vector3.down;
         Vector3 voidPosition = playerTransform.position + Vector3.forward + Vector3.forward ;
         GameObject newLevel = Instantiate(level_1, startPosition, Quaternion.identity);
