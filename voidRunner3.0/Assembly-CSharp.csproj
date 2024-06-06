@@ -72,6 +72,8 @@
     <Compile Include="Assets\Scenes\Scripts\ballroll.cs" />
     <Compile Include="Assets\Scenes\Scripts\gameOver.cs" />
     <Compile Include="Assets\UI button pack 2\Scene\CreateObj.cs" />
+    <Compile Include="Assets\Scenes\Scripts\powerUp.cs" />
+    <Compile Include="Assets\Scenes\Scripts\pickUpSpawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI pack\Documentation.txt" />

@@ -364,6 +364,8 @@
 "Assets/Scenes/Scripts/gameStart.cs"
 "Assets/Scenes/Scripts/magicCircle.cs"
 "Assets/Scenes/Scripts/movement.cs"
+"Assets/Scenes/Scripts/pickUpSpawn.cs"
+"Assets/Scenes/Scripts/powerUp.cs"
 "Assets/Scenes/Scripts/prefabTrigger.cs"
 "Assets/UI button pack 2/Scene/CreateObj.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"

@@ -13,6 +13,7 @@ TagManager:
   - Boss Level Ground
   - Boss Enemies
   - Tutorial Level
+  - Speed
   layers:
   - Default
   - TransparentFX

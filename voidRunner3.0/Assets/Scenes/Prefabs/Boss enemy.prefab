@@ -60,12 +60,12 @@ MonoBehaviour:
   targetObj: {fileID: 3262332578069204192, guid: 40b7e39b9561cf8418d4b01cbca44812, type: 3}
   enemyTransform: {fileID: 2998977511752456027}
   playerKillInterval: 7
-  minDist: 2
+  minDist: 0
   pos: 0
   fallheight: 0
   enemy: {fileID: 3402517592089732456}
   rb: {fileID: 0}
-  speed: 5
+  speed: 25
   time: 1
 --- !u!23 &6458259969584829529
 MeshRenderer:
@@ -165,6 +165,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2998977511752456027}
     m_Modifications:
+    - target: {fileID: 400617053890417528, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.14309566
@@ -179,7 +183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.06
+      value: 0.022
       objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalPosition.y
@@ -217,9 +221,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2000615535017839894, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2215219567136707488, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3514860287608930087, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260177897694410512, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692917012136527067, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6729523699875411432, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813208794856459649, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 29511.797
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813208794856459649, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813208794856459649, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813208794856459649, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813208794856459655, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961581215706943724, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7478731271839673279, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_Name
       value: Laser AOE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7478731271839673279, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063691487585404173, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

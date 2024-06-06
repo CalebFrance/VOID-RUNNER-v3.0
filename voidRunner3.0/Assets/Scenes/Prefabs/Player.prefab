@@ -76,7 +76,6 @@ MonoBehaviour:
   Portal: {fileID: 5607819269926399345, guid: 0cc5666dc734c3542ba9aa4eb04a4375, type: 3}
   startCircle: {fileID: 3744133877081091469, guid: 5ac60da89a21e214cb8919098f567ef9, type: 3}
   player: {fileID: 9081609729212357856}
-  speedActivity: {fileID: 0}
   Explosion: {fileID: 0}
 --- !u!114 &8706147014376998932
 MonoBehaviour:

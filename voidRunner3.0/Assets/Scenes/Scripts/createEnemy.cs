@@ -25,7 +25,8 @@ public class createEnemy : MonoBehaviour
 
     public GameObject enemyBoss;
 
-   
+    public int enemyNo;//token amount
+
     // Start is called before the first frame update
 
 
@@ -81,14 +82,14 @@ public class createEnemy : MonoBehaviour
                     Random.Range(collider.bounds.min.z, collider.bounds.max.z)
                 );
 
-            point.y = 5;
+            point.y = 3;
 
             //point.y = 1;//makes the coins spawn on the ground
             return point;
         }
 
-        int scoreNo = 2;//token amount
-        for (int i = 0; i < scoreNo; i++)
+       
+        for (int i = 0; i < enemyNo; i++)
         {
             GameObject score = Instantiate(enemy);//spawns token
             score.transform.position = GetRandomPointInCollider(GetComponent<Collider>());
