@@ -13,7 +13,7 @@ public class deathScene : MonoBehaviour
 
     public void restartScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
         Debug.Log("Game Restarted");
     }
 

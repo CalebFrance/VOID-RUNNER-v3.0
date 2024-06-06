@@ -27,7 +27,7 @@ public class gameOver : MonoBehaviour
     {
          Debug.Log("You died");
            
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(2);
      
 
 
