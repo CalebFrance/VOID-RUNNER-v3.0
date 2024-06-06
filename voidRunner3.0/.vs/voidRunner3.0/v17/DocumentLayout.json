@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner-v3.0\\voidrunner3.0\\assets\\scenes\\scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner-v3.0\\voidrunner3.0\\assets\\scenes\\scripts\\pickupspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\pickupspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\createenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\createenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner-v3.0\\voidrunner3.0\\assets\\scenes\\scripts\\pickupspawnboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\pickupspawnboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\prefabtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\prefabtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|c:\\users\\caleb\\void runner\\void-runner-v3.0\\voidrunner3.0\\assets\\scenes\\scripts\\pickupspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\pickupspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\ballroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\ballroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\createenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\createenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\deathscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\deathscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\deathscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\deathscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,10 +52,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\prefabTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\assets\\scenes\\scripts\\ballroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81E635A-FD28-6208-293C-DFCEF081E675}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scripts\\ballroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\caleb\\void runner\\void-runner-v3.0\\voidrunner3.0\\assets\\scenes\\scripts\\spawnprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,19 +70,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "pickUpSpawnBoss.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\pickUpSpawnBoss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\pickUpSpawnBoss.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\pickUpSpawnBoss.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\pickUpSpawnBoss.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T07:13:53.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "deathScene.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\deathScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\deathScene.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\deathScene.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\deathScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T06:23:55.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "deathScreen.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\deathScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\deathScreen.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\deathScreen.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\deathScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:47:59.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "powerUp.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\powerUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\powerUp.cs",
               "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\powerUp.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\powerUp.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T04:29:57.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T04:29:57.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "enemyfollow.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\enemyfollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\enemyfollow.cs",
@@ -82,32 +130,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "createEnemy.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\createEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\createEnemy.cs",
               "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\createEnemy.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\createEnemy.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAAAEsAAAAHAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwEsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T04:15:32.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "pickUpSpawn.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\pickUpSpawn.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\pickUpSpawn.cs",
               "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\pickUpSpawn.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\pickUpSpawn.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAXAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T03:39:37.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "camera.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\camera.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\camera.cs",
@@ -119,15 +167,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "prefabTrigger.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\prefabTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\prefabTrigger.cs",
               "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\prefabTrigger.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\prefabTrigger.cs",
-              "ViewState": "AQIAAIUAAAAAAAAAAAD4v5MAAAA0AAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T23:32:57.567Z"
+              "WhenOpened": "2024-06-05T23:32:57.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,13 +186,13 @@
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\gameOver.cs",
               "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\gameOver.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\gameOver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwE8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T22:53:42.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "spawnprefab.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\spawnprefab.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\spawnprefab.cs",
@@ -155,7 +204,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "ballroll.cs",
+              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\ballroll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\ballroll.cs",
+              "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\ballroll.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\ballroll.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:26:02.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "prefabTrigger.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\void-runner\\Assets\\Scenes\\scripts\\prefabTrigger.cs",
               "RelativeDocumentMoniker": "..\\..\\void-runner\\Assets\\Scenes\\scripts\\prefabTrigger.cs",
@@ -167,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "gameStart.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\gameStart.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\gameStart.cs",
@@ -176,18 +237,6 @@
               "ViewState": "AQIAABwAAAAAAAAAAAAQwDIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T22:34:10.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ballroll.cs",
-              "DocumentMoniker": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\ballroll.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\ballroll.cs",
-              "ToolTip": "C:\\Users\\caleb\\void runner\\VOID-RUNNER-v3.0\\voidRunner3.0\\Assets\\Scenes\\Scripts\\ballroll.cs",
-              "RelativeToolTip": "Assets\\Scenes\\Scripts\\ballroll.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T22:26:02.892Z"
             }
           ]
         }

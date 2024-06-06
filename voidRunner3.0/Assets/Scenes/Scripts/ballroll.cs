@@ -6,11 +6,11 @@ public class Ballroll : MonoBehaviour
 {
     public float speed;
     public GameObject speedActivity;
-    public AudioSource JumpSFX;
+   
 
     public Rigidbody rb2;
     public int power;
-
+    public AudioSource jumpSFX;
 
     public GameObject player;
 
@@ -31,11 +31,21 @@ public class Ballroll : MonoBehaviour
 
         rb.AddForce(roll * (speed * Time.deltaTime));
         rb.AddForce(Jump * (speed * Time.deltaTime));
+
+        if (Input.GetKeyDown("space"))
+        { jumpSFX.Play(); }
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
 
+    }
+
+    public void stopMove()
+    {
+       // rb.velocity = Vector3.zero;
+        //rb.angularVelocity = Vector3.zero;
+        rb.isKinematic = true;
     }
 }

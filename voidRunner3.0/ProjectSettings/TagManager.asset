@@ -14,6 +14,7 @@ TagManager:
   - Boss Enemies
   - Tutorial Level
   - Speed
+  - Score
   layers:
   - Default
   - TransparentFX

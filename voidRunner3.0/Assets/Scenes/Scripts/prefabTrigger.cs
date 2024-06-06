@@ -15,7 +15,7 @@ public class prefabTrigger : MonoBehaviour
     public GameObject level_4;
     public GameObject player;
     public GameObject Portal;
-    public AudioSource levelChange;
+    public AudioSource portalWarp;
 
     private float spawnDistance = 99f;
     private float spawnDistance2 = 30f;
@@ -199,6 +199,7 @@ public class prefabTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("spawn"))
         {
+            portalWarp.Play();
             if (GameRunning == true)
 
             {

@@ -273,6 +273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3414836593327704874}
   - component: {fileID: 7313813263895270196}
+  - component: {fileID: 3364610156196754988}
   - component: {fileID: 3563299733079772644}
   - component: {fileID: 8631948584266852081}
   - component: {fileID: 3257428204702038171}
@@ -308,7 +309,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4709496875985160029}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &3563299733079772644
+--- !u!114 &3364610156196754988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -316,6 +317,21 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4709496875985160029}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989d6cf06400b0d40b4dbaee31a31247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedPickUp: {fileID: 6287953604210959080, guid: 7c4becabc9693fe4287d40d9038b249d, type: 3}
+  levelCollider: {fileID: 8491585031887489828}
+  pickUpNo: 15
+--- !u!114 &3563299733079772644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4709496875985160029}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d673d486fc85cfc49b254d5c949d34ca, type: 3}
   m_Name: 

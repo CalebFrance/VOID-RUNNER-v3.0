@@ -16,7 +16,7 @@ public class powerUp : MonoBehaviour
     {
         if (other.CompareTag("Speed"))
         {
-           // pickUp.Play();
+            pickUp.Play();
 
             if (Time.time > 2f)
             {
