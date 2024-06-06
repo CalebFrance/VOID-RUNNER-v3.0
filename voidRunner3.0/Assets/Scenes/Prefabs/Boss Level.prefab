@@ -318,15 +318,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749c0ea0e134279408e99638942fe0a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_1: {fileID: 1126701302309486033, guid: 47105a6e6b4c9774bab3bf566d35ce25, type: 3}
+  level_1: {fileID: 1126701302309486033, guid: 1898bf30f8562094cba891e99d84fb68, type: 3}
   level_3: {fileID: 4864049009622658424}
-  enemy: {fileID: 0}
+  enemy: {fileID: 3402517592089732456, guid: f9b9a08016a23a444ad5e29644ff4bbe, type: 3}
   levelTransform: {fileID: 3596419187676481565}
   spawnDistance: 5
   levelCollider: {fileID: 0}
   levelCollider2: {fileID: 0}
   levelCollider3: {fileID: 8491585031887489828}
-  enemyBoss: {fileID: 0}
+  enemyBoss: {fileID: 3402517592089732456, guid: f9b9a08016a23a444ad5e29644ff4bbe, type: 3}
 --- !u!23 &8982764648640999614
 MeshRenderer:
   m_ObjectHideFlags: 0

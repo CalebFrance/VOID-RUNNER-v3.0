@@ -46,7 +46,7 @@ public class gameOver : MonoBehaviour
 
         }
 
-        if (other.gameObject.CompareTag("Boss Enemies"))
+       /* if (other.gameObject.CompareTag("Boss Enemies"))
         {
             Debug.Log("The enemy got you, you're dead");
 
@@ -56,7 +56,7 @@ public class gameOver : MonoBehaviour
             
 
 
-        }
+        } */
     }
 
     // Update is called once per frame

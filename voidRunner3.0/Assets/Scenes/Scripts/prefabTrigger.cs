@@ -70,7 +70,7 @@ public class prefabTrigger : MonoBehaviour
         spawnPosition3.y = 0;
         spawnPosition3.x = 0.5f;
 
-        spawnPosition4.y = 0;
+        spawnPosition4.y = -2;
         spawnPosition4.x = 0.5f;
 
         spawnPosition5.y = 0;

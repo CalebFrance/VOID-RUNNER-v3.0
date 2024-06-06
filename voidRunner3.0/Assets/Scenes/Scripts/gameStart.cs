@@ -11,7 +11,6 @@ public class gameStart : MonoBehaviour
     public GameObject Portal;
     public GameObject startCircle;
     public GameObject player;
-    public GameObject speedActivity;
     private Transform playerTransform;
     private float StartdestroyTime = 15f;
     private float circledestroyTime = 20f;
@@ -48,7 +47,7 @@ public class gameStart : MonoBehaviour
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 
         Vector3 circlePosition = playerTransform.position;
-        circlePosition.y = -0.2f;
+        circlePosition.y = 0;
         Vector3 startPosition = playerTransform.position + Vector3.down;
         Vector3 voidPosition = playerTransform.position + Vector3.forward + Vector3.forward ;
         GameObject newLevel = Instantiate(level_1, startPosition, Quaternion.identity);
@@ -61,8 +60,7 @@ public class gameStart : MonoBehaviour
         Destroy(newPortal, StartdestroyTime);
         Destroy(newCircle, circledestroyTime);
 
-        speedActivity.SetActive(false);
-       
+    
         
     }
 

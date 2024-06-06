@@ -87,7 +87,7 @@ public class createEnemy : MonoBehaviour
             return point;
         }
 
-        int scoreNo = 4;//token amount
+        int scoreNo = 2;//token amount
         for (int i = 0; i < scoreNo; i++)
         {
             GameObject score = Instantiate(enemy);//spawns token
